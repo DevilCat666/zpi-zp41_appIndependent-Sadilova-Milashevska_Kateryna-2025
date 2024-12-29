@@ -1,1 +1,155 @@
-My live page from gimthub
+<!DOCTYPE html>
+<html lang="ua-UA">
+<head>
+<title>ЗПІ-зп41. Саділова-Мілашевська Катерина Костянтинівна</title>
+<link rel="icon" type="image/x-icon" href=".\cat10.png">
+<style>
+th, td {
+border: 1px solid white;
+border-collapse: collapse;
+border-spacing: 5px;
+border-radius: 10px;
+border-style: dotted;
+border-color: #96D4D4;
+}
+th, td {
+padding: 5px;
+}
+th {
+text-align: left;
+}
+table#t01 {
+  width: 100%;
+  background-color: pink;
+}
+</style>
+</head>
+<body>
+
+<h1 id="C1">ЗПІ-зп41. Саділова-Мілашевська Катерина Костянтинівна</h1>
+
+<h2>Самостійна робота №1</h2>
+
+<h3>Структура html-документа. Вибір предметної галузі. Робота з посиланнями, таблицями, забраженнями, списками, формами в html-документі.</h3>
+
+<p>1.1 Що таке HTML?</p>
+<p>Виконано шляхом створення самого файлу та написанням інформації вище.</p>
+
+<p>1.2. HTML Редактори коду та IDE</p>
+<p>Виконано шляхом створення самого файлу та написанням інформації вище.</p>
+
+<p>1.3. HTML Основні приклади</p>
+<a href="https://w3schoolsua.github.io/html/html_basic.html">Посилання на сторінку з інформацією про посилання в html.</a>
+<br>
+<img src="./cat.png" alt="Cat" width="259" height="194">
+<br>
+<button>Кнопочка</button>
+<br><br>
+<p>Невпорядкований список тем, що потрібно розглянути:</p>
+<ul style="list-style-type:square;">
+<li>1.4. HTML Елементи.</li>
+<li>1.5. HTML Атрибути.</li>
+<li>1.6. HTML Параграфи.</li>
+</ul>
+<p>Впорядкований список тем, що потрібно розглянути:</p>
+<ol type="a">
+<li>1.7. HTML Посилання.</li>
+<li>1.8. HTML Зображення.</li>
+<li>1.9. HTML Таблиці.</li>
+</ol>
+<br> 
+
+<p>1.4. HTML Елементи</p>
+<br> Виконано шляхом створення самого файлу та написанням інформації вище.
+<br><br>
+
+<p>1.5. HTML Атрибути</p>
+<p style="color:fuchsia">Кольоровий текст</p>
+<p>Атрибут lang - Виконано вище</p>
+<p>Атрибут title - Виконано вище</p>
+<br> 
+
+<p>1.5.1 HTML Заголовки</p>
+<h5 style="font-size:10px;">Заголовок маленький</h5>
+<h6 style="font-size:8px;">Заголовок ще менший</h6>
+<p>Виконано шляхом написання інформації вище.</p>
+<br> 
+
+<p>1.6. HTML Параграфи</p>
+<p>Це параграф.</p>
+<p>Це інший параграф.</p>
+<pre>
+Тут
+параграф
+</pre>
+<br> 
+
+<p>1.7. HTML Посилання</p><br> 
+<style>
+a:link, a:visited {
+background-color: Pink;
+color: white;
+padding: 5px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+a:hover, a:active {
+background-color: fuchsia;
+}
+</style>
+<a href="https://www.youtube.com/watch?v=DpjwUfwetx8" target="_blank"> Посилання на гарний настрій.</a><br>
+<a href="https://www.youtube.com/watch?v=iOK0rtp3_yY"><img src=".\cat2.jpg" title="Посилання на крутий вайб" style="width:100px;height:100;"></a>
+<p><a href="#C1"> Перейти на початок </a></p>
+<br> 
+
+<p>1.8 HTML Зображення</p>
+<div style="background-image: url('./back.jpg');">
+<br>
+<img src=".\cat3.gif" alt="Cat!!!!" width="200" height="300" usemap="#catmap">
+<map name="catmap">
+<area shape="default" href="https://www.youtube.com/shorts/NsMKvVdEPkw">
+</map>
+</div>
+<picture>
+  <source media="(min-width: 650px)" srcset=".\cat6.jpg">
+  <source media="(min-width: 465px)" srcset=".\cat6.jpg">
+  <img src=".\cat6.jpg">
+</picture>
+<br> 
+
+<p>1.9 HTML Таблиці</p>
+<table id="t01">
+<caption>Перелік котиків</caption>
+<tr>
+<th style="width:10%">Ім'я кота</th>
+<th style="width:5%">Колір кота</th>
+<th style="width:5%">Вік</th>
+</tr>
+<tr style="height:20px">
+<td>Кузя</td>
+<td>Сірий</td>
+<td>1 рік</td>
+</tr>
+<tr>
+<td>Маруся</td>
+<td>Біля</td>
+<td>7 місяців</td>
+</tr>
+</table>
+
+<h3>HTML Форми.</h3>
+<form action="https://www.youtube.com/watch?v=JxS5E-kZc2s" target='_blank'>
+<fieldset>
+<legend>Перехід на власну сторінку Youtube:</legend>
+Ім'я:<br>
+<input type="text" name="firstname" value="Катерина">
+<br>
+Прізвище:<br>
+<input type="text" name="lastname" value="Саділова">
+<br><br>
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+</body>
+</html>
